@@ -51,6 +51,6 @@ Generate list of CIDR blocks from multiple regular expressions. Separate them wi
 
 ## Limitations
 
-The tool is primarily intended to convert regular expression generated from IP regular expression builder which exactly match an IP address.
+The tool is primarily intended to convert regular expressions generated from IP regular expression builders which exactly match an IP address.
 
 The tool is sound but it will not complete in reasonable time if you try to convert regular expressions like `^10.*` matching a large number or even infinite many strings.
